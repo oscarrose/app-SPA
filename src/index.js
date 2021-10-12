@@ -8,7 +8,8 @@ import {BrowserRouter, Route,Switch} from "react-router-dom";
 import {AppTodoList} from "./App";
 import AppCalculator from "./App";
 import Navbar from "./components/Navbar";
-import {AppCounterClick} from "./App"
+import {AppCounterClick} from "./App";
+import {AppGallery} from "./App";
 
 
 
@@ -32,7 +33,8 @@ reactDom.render(
                
             </Route>
 
-            <Route  path="/gallery">
+            <Route component={AppGallery} path="/gallery">
+                <AppGallery/>
              
             </Route>
         </Switch>

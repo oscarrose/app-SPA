@@ -94,12 +94,13 @@ export default AppCalculator;
 export function AppGallery() {
     const images = [
       "./img/img1.jpg",
-      "./img/img/img2.jpg",
-      "./img/img/img3.jpg"
+      "./img/img2.jpg",
+      "./img/img3.jpg",
+      "./img/img4.jpg"
     ];
   
     return (<GridGallery images={images} alt="description of image"/>);
-  }
+}
   
 
 //App de conunters
@@ -120,7 +121,7 @@ export function AppTodoList(){
         { id:1,task:"tarea 1",completed:false},
     ]);
     const TodoRef=useRef();
-    
+
     useEffect(()=>{
         const stored=JSON.parse(localStorage.getItem(key));
         if(stored){
