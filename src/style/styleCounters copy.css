@@ -1,0 +1,31 @@
+body{
+    background-color: lightcoral;
+}
+
+div{
+    text-align: center;
+}
+
+.content{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-top: 160px;
+    background-color: cadetblue;
+    display: block;
+    border-radius: 10px;
+    padding: 80px;
+   margin-left: 600px;
+   margin-right: 600px;
+ 
+}
+p{
+    color: black;
+}
+
+.contador{
+ font-size: large;
+ width: 100px;
+ height: 40px;
+ margin-bottom: -80px;
+   
+}
